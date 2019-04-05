@@ -28,6 +28,7 @@ class SmurfForm extends Component {
   render() {
     return (
       <div className='formCon'>
+      <h1>Add a Smurf</h1>
         <form className='smurfForm' onSubmit={this.addSmurf}>
           <input
             onChange={this.handleInputChange}
