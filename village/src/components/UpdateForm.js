@@ -18,7 +18,7 @@ class UpdateForm extends Component {
   render() {
     return (
       <div className='formCon'>
-      <h1>Add a Smurf</h1>
+      <h1>Update Smurf</h1>
         <form className='smurfForm' onSubmit={() => this.props.updateSmurf(this.props.activeSmurf.id, this.state)}>
           <input
             onChange={this.handleInputChange}
